@@ -212,7 +212,7 @@ nav ul li a:hover {
     margin-right: 50px;
 }
 
-.style-figs {
+.style-figs, .bento-2, .mockup {
     display: flex;
     flex-direction: column;
     justify-content: center;
