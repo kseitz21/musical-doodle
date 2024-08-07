@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 2px solid #9DA5EB;
+    border-radius: 10px;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: #313131;
+    font-family: "Chivo", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+/*--Typography--*/
+
+h1 {
+    color: #9DA5EB;
+    text-align: center;
+    font-family: Chivo;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0 auto;
+    position: relative;
+    width: fit-content;
+}
+
+h2 {
+    color: #F4F0EE;
+    text-align: center;
+    font-weight: 100;
+    margin: 10px auto;
+    position: relative;
+    width: fit-content;
+}
+
+h3 {
+    color: #F4F0EE;
+    text-align: center;
+    font-family: Chivo;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p {
+    display: flex;
+    color: #F4F0EE;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+/*--Navigation Bar--*/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+    color: #F4F0EE;
+    font-weight: 400;
+    list-style-type: none;
+    font-size: x-small;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: row;
+    text-align: end;
+}
+
+nav li {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    padding: 20px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    padding: 5px;
+    border: 2px solid #9DA5EB;
+    border-radius: 10px;
+}
+
+/*Content*/
+
+#job-summary {
+    padding: 50px 50px;
+}
+
+.card-title {
+    color:#F4F0EE;
+    text-decoration: underline;
+}
+
+.card-text {
+    justify-content: center;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discover p, .define p, .develop p, .deliver p {
+    margin: 10px 150px;
+    line-height: 2rem;
+}
+
+.figure-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid {
+    margin: auto;
+    max-width: 75%;
+}
+
+.figure-caption {
+    color:#F4F0EE;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.component-list {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    list-style-type: numbers;
+    color:#F4F0EE;
+    font-weight: 600;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.define > ul > li > ul {
+    list-style-type: lower-alpha;
+    font-weight: 200;
+}
+
+.compare-photos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    max-height: 75%;
+    max-width: 75%;
+}
+
+#bento-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#classic {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.style-figs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+

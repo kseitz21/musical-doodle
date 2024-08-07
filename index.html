@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Practice-Case Study</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <img class="logo" src="./assets/Logo.svg">
+      </div>
+      <ul>
+        <li><a href="#discover">Discover</a></li>
+        <li><a href="#define">Define</a></li>
+        <li><a href="develop">Develop</a></li>
+        <li><a href="deliver">Deliver</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <h1>Focus on the Music</h1>
+    <h3>Chamber Music International Non-profit Website Redesign</h3>
+  </div>
+  <div class="row text-center justify-content-md-center" id="job-summary">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Task</h5>
+          <p class="card-text">Redesign a non-profit website.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Role</h5>
+          <p class="card-text">UI/UX Designer (group project)</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Time</h5>
+          <p class="card-text">3 weeks</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="discover" id="discover">
+    <h3>Discover</h3>
+    <p>Starting our initial assessment of the website, a couple big things stood out right away: information overload
+      and readability issues. During testing, users were struggling to find the information needed to purchase tickets
+      since it was spread out all across the website. Even though the information was on the site, the overall design of
+      the website was preventing users from getting the information they needed.</p>
+    <figure class="figure">
+      <img src="./assets/orch-home-page.jpg" class="figure-img img-fluid" alt="...">
+      <figcaption class="figure-caption text-center">The starting point.</figcaption>
+    </figure>
+  </div>
+  <div class="define" id="define">
+    <h3>Define</h3>
+    <p>As we started our brainstorming process, we knew that our best plan of attack was to start the website design
+      from scratch. While we came up with a lot of feasible ideas, we wanted to make sure each area of concern was
+      addressed while also balancing our capabilities within the short timeframe. Our feature prioritization matrix seen
+      below helped us make sure to focus our energy on the features that would be the highest impact in the lowest time
+      period first, then expand from there as time allowed.</p>
+    <figure class="figure">
+      <img src="./assets/Feature Prioritization.jpg" class="figure-img img-fluid" alt="...">
+      <figcaption class="figure-caption text-center">Feature Prioritization Matrix</figcaption>
+    </figure>
+    <p>We also broke up our feature list into categories and put them in order of highest priority within the category.
+      That gave us a clear guideline of the things we wanted to accomplish as a group and allowed for easy reference
+      back to during the design process. </p>
+    <ul class="component-list">
+      <li>Visual Components
+        <ul>
+          <li>Color Scheme for accessibility and visibility</li>
+          <li>Organization of home screen hierarchy</li>
+        </ul>
+      </li>
+      <li>Navigation Components
+        <ul>
+          <li>Reorganize submenu options/add additional as needed</li>
+          <li>Connecting concert information to payment information for smoother use</li>
+        </ul>
+      </li>
+      <li>Content Components
+        <ul>
+          <li>Reduce information overload on home page (esp. side columns)</li>
+          <li>Organize information together that needs to be together</li>
+          <li>Making sure sponsoring organizations are clearly visible</li>
+          <li>Adding audio/video clips to support content as needed</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="develop" id="develop">
+    <h3>Develop</h3>
+    <p>With feature priority in mind, we turned our focus into redesigning the layout of the home page. We wanted to
+      find a happy medium between creating a design that was familiar to older uses, but also fresh to bring in new
+      users. We went back and forth between a couple different designs-a trendy bento box style or a more basic but
+      classic layout. </p>
+    <div class="compare-photos">
+      <figure class="figure" id="bento-box">
+        <img src="./assets/bento-box-wireframe.jpg" class="figure-img img-fluid" alt="...">
+        <figcaption class="figure-caption text-center">Bento Box Version</figcaption>
+      </figure>
+      <figure class="figure" id="classic">
+        <img src="./assets/classic-wireframe.jpg" class="figure-img img-fluid" alt="...">
+        <figcaption class="figure-caption text-center">Classic Layout</figcaption>
+      </figure>
+    </div>
+    <p>We were torn between the two designs since they served different purposes that would both technically solve some
+      of our problems, so we ultimately looked back at our research and decided that we should go with the bento box, as
+      it allowed us to still present a high amount of content all while keeping it condensed and clean, plus it kept all
+      the information in a smaller distance with minimal scrolling. We iterated on that design with a few adjustments
+      that continued to emphasize the hierarchy of the information presented.</p>
+    <figure class="figure">
+      <img src="./assets/bento-box-wireframe2.jpg" class="figure-img img-fluid" alt="...">
+      <figcaption class="figure-caption text-center">Bento Box V.2</figcaption>
+    </figure>
+  </div>
+  <div class="deliver" id="deliver">
+    <h3>Deliver</h3>
+    <p>Finally feeling confident in our layout decisions, applying the UI design elements felt much smoother. While
+      continuing our efforts to keep elements of the original website familiar to returning users, we knew that changes
+      would have to be made to the original color scheme of the website. The original background and text color did not
+      pass accessibility with only a 2.6 rating. So, we darkened up the background and used the old background color as
+      an accent color to keep the color present on the website, plus added a few other pops of color to help draw
+      attention when needed.</p>
+    <div class="style-figs">
+      <figure class="figure">
+        <img src="./assets/style-tile.jpg" class="figure-img img-fluid" alt="...">
+        <figcaption class="figure-caption text-center">UI Style Tile</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="./assets/home-page-new.jpg" class="figure-img img-fluid" alt="...">
+        <figcaption class="figure-caption text-center">Bento Box with Applied Style</figcaption>
+      </figure>
+    </div>
+    <p>The bento box layout allows for a lot of information to be added, but also keeps it visually contained to help
+      readers assess what information is needed. In the future, we’d want to add additional elements to the website to
+      further help users navigate and use the website. We want to expand on the payment system and have it more embedded
+      into the website to make sure users don’t have to leave the website to complete their purchase. </p>
+    <figure class="figure">
+      <img src="./assets/mockup.svg" class="figure-img img-fluid" alt="...">
+    </figure>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
